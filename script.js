@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const endDate = new Date('2025-02-15T08:00:00'); 
+    const endDate = new Date('2025-02-15T06:00:00'); 
     const currentDate = new Date();
     const totalSeconds = Math.floor((endDate - currentDate) / 1000);
 
